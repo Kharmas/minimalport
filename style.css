@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Helvetica LT Condensed';
+    src: url("files/lte50050.ttf");
+}
+
+body{
+    margin: 0;
+
+}
+
+.wrap {
+    margin: auto;
+    max-width: 960px;
+    //border: 2px yellow solid;
+
+}
+
+.logo{
+    font-family: "Bebas Neue", "Regular" ;
+    display: inline;
+    width: 250px;
+    height: 50px;
+    font-size: 30px; ;
+}
+
+header{
+    display: flex;
+    //border: 2px red solid;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.intro-all{
+    //border: 1px blue solid;
+    box-shadow:0px 50px 35px -30px rgba(0,0,0,0.24);
+    left:10px;
+    right:10px;;
+}
+
+.intro {
+    text-align: center;
+    //border: 2px purple solid ;
+    font-family: "Arial Black";
+    font-size: 100px;
+    margin-bottom: -20px;
+    color: darkgray;
+}
+
+.intro-text{
+    font-family: Cambria;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 0 35px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-family: "Helvetica LT Condensed";
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav li{
+    padding: 10px;
+}
+
+.logotext{
+    font-family: "Arial", "Arial Regula";
+    font-size: 14px;
+}
