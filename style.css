@@ -20,15 +20,17 @@ body{
     display: inline;
     width: 250px;
     height: 50px;
-    font-size: 30px; ;
+    font-size: 30px;
+
 }
 
 header{
     display: flex;
-    //border: 2px red solid;
+   // border: 2px red solid;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
     justify-content: space-between;
+    align-items: flex-end;
 
 }
 
@@ -56,6 +58,13 @@ header{
     padding: 0 0 35px 0;
 }
 
+.intro-img{
+    //border: 1px red solid;
+    width: 311px;
+    height: 42px;
+    margin: auto;
+}
+
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -63,13 +72,218 @@ header{
     font-family: "Helvetica LT Condensed";
     font-size: 16px;
     text-transform: uppercase;
+    margin: 0;
+    height: 100%;
+
 }
 
 .nav li{
-    padding: 10px;
+    padding: 50px 10px 10px 10px ;
+    //border: 1px black solid;
+    margin-bottom: 8px;
+}
+
+.nav li:hover{
+    background: #d45e5e;
+    color: white;
+}
+
+.text-port{
+    font-family: Cambria;
+    font-style: italic;
+    font-size: 22px;
+    text-align: left;
+    margin: 45px 0;
 }
 
 .logotext{
     font-family: "Arial", "Arial Regula";
     font-size: 14px;
 }
+
+.blocks{
+    display: grid;
+    width: 100%;
+    grid-gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 0 110px 0;
+
+}
+
+.blocks .item{
+    /*border: black 1px solid;*/
+
+}
+
+.blocks .item img{
+    width: 100%;
+}
+
+.wrap .about{
+    max-width: 1500px;
+
+
+}
+.about{
+    background: #d45e5e;
+    //height: 300px;
+    //border: black 1px solid;
+
+}
+
+.about-pic{
+    height: 123px;
+    width: 123px;
+    border: red;
+    padding: 7px;
+    margin: -50px 0 0 0 ;
+    background: white;
+
+}
+
+.header-about{
+    display: flex;
+}
+
+.wrap-about{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.info{
+    width: 60%;
+
+}
+
+.about .wrap{
+    display: flex;
+    color: white;
+}
+
+.skills{
+    width: 40%;
+}
+
+.about-text{
+
+    font-family: Cambria;
+    font-style: italic;
+    font-size: 22px;
+    margin: -7px 5px 5px 2px;
+}
+
+.about-address{
+    font-family: "sans-regular";
+    font-size: 13px;
+}
+
+.about-address img{
+    padding: 0 5px 0 0;
+}
+
+.about-all{
+    margin: 30px;
+}
+
+ .network2{
+    padding: 0 20px;
+}
+
+.aboutPar{
+    text-align: justify;
+}
+
+.skills{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.skillsText{
+    font-family: "Cambria";
+    font-size: 25px;
+    padding: 20px 0 0 40px ;
+    min-height: 50px;
+
+
+}
+
+.skillsProgress{
+    font-family: "PT Sans";
+    font-size: 18px;
+    align-items: center;
+    margin: -25px 0 0 0 ;
+
+}
+
+.skillsProgressList{
+    list-style: none;
+
+}
+
+.skillsProgressList li{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+.bar {
+    margin: 10px 20px;
+    display: flex;
+    height: 10px;
+    width: 200px;
+    background-color: #e27878;
+}
+
+/*.bar>div{
+    width: 40%;
+    background-color: black;
+}*/
+
+.prog1{
+    width: 60%;
+    background-color: black;
+}
+
+.prog2{
+    width: 80%;
+    background-color: black;
+}
+
+.prog3{
+    width: 30%;
+    background-color: black;
+}
+
+.prog4{
+    width: 90%;
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+    text-align: right;
+
+}
+
+
+.footertext{
+    font-family: "PT Sans", Regular;
+    font-size: 12px;
+    color: #ababab;
+
+}
+
+footer .wrap{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
